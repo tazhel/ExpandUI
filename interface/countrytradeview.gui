@@ -701,7 +701,7 @@ guiTypes = {
 				name ="tradenode_list"
 				position = { x = 50 y = 23 }
 				backGround=""
-				size = { x=473 y = 120}
+				size = { x=473 y = 425}
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
 				spacing = 0

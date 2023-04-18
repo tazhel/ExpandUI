@@ -99,7 +99,7 @@ guiTypes = {
             name ="modifications"
             position = { x=31 y=129}
             backGround=""
-            size = { x=342 y=170 }
+            size = { x=342 y=450 }
             horizontal = 0
             spacing = 0
             scrollbartype = "standardlistbox_slider"
@@ -118,7 +118,7 @@ guiTypes = {
 
         guiButtonType = {
             name = "cancel"
-            position = { x=25 y=339 }
+            position = { x=25 y=619 }
             quadTextureSprite ="button_type_1"
             tooltip = ""
             tooltipText =""
@@ -131,7 +131,7 @@ guiTypes = {
 
         guiButtonType = {
             name = "build"
-            position = { x=330 y=339 }
+            position = { x=330 y=619 }
             quadTextureSprite ="button_type_1"
             tooltip = ""
             tooltipText =""
@@ -260,7 +260,7 @@ guiTypes = {
 		{
 			name = "modification_1"
 			spriteType = "GFX_playeraiprefs_question_mark"
-            position = { x=22 y=303 }
+            position = { x=22 y=583 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -268,7 +268,7 @@ guiTypes = {
 		{
 			name = "modification_2"
 			spriteType = "GFX_playeraiprefs_question_mark"
-            position = { x=62 y=303 }
+            position = { x=62 y=583 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -276,13 +276,13 @@ guiTypes = {
 		{
 			name = "modification_3"
 			spriteType = "GFX_playeraiprefs_question_mark"
-            position = { x=102 y=303 }
+            position = { x=102 y=583 }
 			Orientation = "UPPER_LEFT"
 		}
 
         instantTextBoxType = {
             name = "nr_modifications"
-            position = { x = 137 y =309 }
+            position = { x = 137 y =589 }
             font = "vic_22"
             borderSize = {x = 0 y = 0}
             text = "nr of modifications"
@@ -293,7 +293,7 @@ guiTypes = {
 		
         instantTextBoxType = {
             name = "total_cost_maintenance"
-            position = { x = 312 y =304 }
+            position = { x = 312 y =589 }
             font = "vic_18"
             borderSize = {x = 0 y = 0}
             text = "maintenance"

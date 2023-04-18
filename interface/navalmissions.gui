@@ -33,7 +33,7 @@ guiTypes = {
 			maxHeight = 15
 			format = left
 			fixedsize = yes	
-			alwaystransparent = yes	
+			alwaystransparent = yes
 		}		
 	}
 
@@ -56,7 +56,7 @@ guiTypes = {
 			name = "mission_listbox"
 			backGround = ""
 			position = { x = 19 y = 94 }
-			size = { x=326 y=303 }
+			size = { x=326 y=803 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 1.5
@@ -122,7 +122,7 @@ guiTypes = {
 				name ="tradenodelist"
 				position = { x = 24 y = 172 }
 				backGround=""
-				size = { x=305  y =250}
+				size = { x=320  y =750}
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
 				spacing = 2
@@ -135,7 +135,7 @@ guiTypes = {
 				name ="privateernodelist"
 				position = { x = 24 y = 180 }
 				backGround=""
-				size = { x=320  y =215}
+				size = { x=320  y =715}
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
 				spacing = 2

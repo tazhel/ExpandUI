@@ -630,12 +630,12 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "prestige_value"
-			position = { x = 439 y = 160 }
+			position = { x = 444 y = 160 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
 			text = "?"
-			maxWidth = 35
+			maxWidth = 30
 			maxHeight = 26
 			format = right
 			fixedsize = yes
@@ -889,7 +889,7 @@ guiTypes = {
 			}
 			if_resolution = {
 				min_height = 1048
-				size = { x=243 y=152 }
+				size = { x=243 y=525 }
 			}
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
@@ -990,7 +990,7 @@ guiTypes = {
 			name ="diploopinion_list"
 			position = { x = 300 y = 418 }
 			backGround=""
-			size = { x= 213 y = 109}
+			size = { x= 213 y = 425}
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 2
@@ -1036,7 +1036,7 @@ guiTypes = {
 			name ="diploaction_list"
 			position = { x = 300 y = 344 }
 			backGround=""
-			size = { x= 213 y = 166}
+			size = { x= 213 y = 525}
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 2
@@ -1047,7 +1047,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "button_createvassals"
-			position = { x=394 y =521 }
+			position = { x=394 y =840 }
 			quadTextureSprite ="GFX_button_homecountry"
 			shortcut = "z"
 		}
@@ -1162,7 +1162,7 @@ guiTypes = {
             }
             if_resolution = {
 			min_height = 1048
-			position = { x=394 y =521 }
+			position = { x=394 y =845 }
 			}
 			quadTextureSprite ="GFX_view_your_country_button"
 			shortcut = "z"
@@ -1428,7 +1428,7 @@ guiTypes = {
 				name ="vassal_select_list"
 				position = { x=20 y =174}
 				backGround=""
-				size = { x=500 y =350}
+				size = { x=500 y =1050}
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
 				spacing = 2
@@ -1438,7 +1438,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "back_button"
-				position = { x=240 y =531}
+				position = { x=240 y =1190}
 				quadTextureSprite ="GFX_standard_button_71"
 				tooltip = ""
 				tooltipText =""
@@ -1574,7 +1574,7 @@ guiTypes = {
 				name ="list"
 				position = { x = 110 y = 40 }
 				backGround=""
-				size = { x=410 y = 375}
+				size = { x=410 y = 645}
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
 				spacing = 0
@@ -1585,7 +1585,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "back"
-				position = { x= 235 y = 410 }
+				position = { x= 235 y = 680 }
 				quadTextureSprite ="GFX_province_back_button"
 				buttonText = "BACK"
 				buttonFont = "vic_18"
@@ -2243,7 +2243,7 @@ guiTypes = {
 
 
 	}
-
+	
 	eu3dialogtype = {
 		name = "TradeFavorsForTrustDialog"
 		backGround=""
@@ -2446,7 +2446,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 				name = "Description"
-				position = { x = 45 y = 205 }
+				position = { x = 45 y = 220 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -2964,13 +2964,13 @@ guiTypes = {
 
 		checkboxType = {
 			name = "play_as_released_vassal"
-			position = { x= 50 y = 475 }
+			position = { x= 50 y = 810 }
 			quadTextureSprite = "GFX_checkbox_gold_32"
 		}
 
 		instantTextBoxType = {
 			name = "play_as_released_text"
-			position = { x = 85 y = 485 }
+			position = { x = 85 y = 820 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -2984,7 +2984,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "AgreeButton"
-			position = { x=280 y =525}
+			position = { x=280 y =860}
 			quadTextureSprite ="button_type_4"
 			tooltip = ""
 			tooltipText =""
@@ -2997,7 +2997,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "DeclineButton"
-			position = { x=50 y =525}
+			position = { x=50 y =860}
 			quadTextureSprite ="button_type_4"
 			tooltip = ""
 			tooltipText =""
@@ -5414,7 +5414,7 @@ guiTypes = {
 			name ="armylist"
 			position = { x = 40 y = 210 }
 			backGround=""
-			size = { x=205 y =300}
+			size = { x=205 y =650}
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 0
@@ -5882,7 +5882,7 @@ guiTypes = {
 			name ="provincelist"
 			position = { x = 40 y = 210 }
 			backGround=""
-			size = { x=205 y =300}
+			size = { x=205 y =650}
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 0
@@ -6208,7 +6208,7 @@ guiTypes = {
 			name ="regionlist"
 			position = { x = 40 y = 210 }
 			backGround=""
-			size = { x=205 y =300}
+			size = { x=205 y =650}
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 0
@@ -6372,7 +6372,7 @@ guiTypes = {
 			name ="provincelist"
 			position = { x = 40 y = 210 }
 			backGround=""
-			size = { x=205 y =300}
+			size = { x=205 y =650}
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 0

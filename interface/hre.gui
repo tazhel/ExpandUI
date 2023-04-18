@@ -2,7 +2,7 @@ guiTypes = {
 
 	windowType = {
 		name = "hre_window"
-		position = { x=-315 y=-370}
+		position = { x=-443 y=-446}
 		size = { x=750 y=750 }
 		moveable = 1
 		dontRender = ""
@@ -424,7 +424,7 @@ guiTypes = {
 			name = "hre_free_cities"
 			position = { x=354 y =562 }
 			backGround=""
-			size = { x=110 y=110 }
+			size = { x=110 y=262 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 0
@@ -436,7 +436,7 @@ guiTypes = {
 			name = "hre_members"
 			position = { x=491 y =562 }
 			backGround=""
-			size = { x=262 y=116 }
+			size = { x=262 y=268 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 0
@@ -455,9 +455,9 @@ guiTypes = {
 
 		smoothListboxType = {
 			name = "hre_league"
-			position = { x=15 y =167 }
+			position = { x=15 y =173 }
 			backGround=""
-			size = { x=69 y=500 }
+			size = { x=69 y=652 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 0
@@ -467,9 +467,9 @@ guiTypes = {
 
 		smoothListboxType = {
 			name = "hre_heretic_league"
-			position = { x=798 y =167 }
+			position = { x=798 y =173 }
 			backGround=""
-			size = { x=69 y=500 }
+			size = { x=69 y=652 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 0
@@ -479,7 +479,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "close_button"
-			position = { x=620 y =686}
+			position = { x=620 y =838}
 			quadTextureSprite ="button_type_1"
 			tooltip = ""
 			tooltipText =""
@@ -504,7 +504,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "dismantel_button"
-			position = { x= 417 y = 686}
+			position = { x= 417 y = 838}
 			quadTextureSprite ="button_type_1"
 			buttonText = "HRE_DISMANTLE"
 			buttonFont = "vic_18"
@@ -512,7 +512,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "leave_button"
-			position = { x= 119 y = 686}
+			position = { x= 119 y = 838}
 			quadTextureSprite ="button_type_1"
 			buttonText = "HRE_LEAVE"
 			buttonFont = "vic_18"
@@ -520,7 +520,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "join_button"
-			position = { x= 119 y = 686}
+			position = { x= 119 y = 838}
 			quadTextureSprite ="button_type_1"
 			buttonText = "HRE_JOIN"
 			buttonFont = "vic_18"
@@ -528,7 +528,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "add_all_button"
-			position = { x= 268 y = 686}
+			position = { x= 268 y = 838}
 			quadTextureSprite ="button_type_1"
 			buttonText = "HRE_ADD_ALL"
 			buttonFont = "vic_18"
@@ -722,7 +722,7 @@ guiTypes = {
 		{
 			name ="member_shield"
 			quadTextureSprite = "GFX_shield_small"
-			position = { x= 6 y = 6 }
+			position = { x= 6 y = 0 }
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
@@ -732,13 +732,13 @@ guiTypes = {
 		iconType = {
 			name = "free_city_outliner"
 			spriteType ="GFX_outliner_free_city"
-			position = { x= 11 y = 0 }
+			position = { x= 11 y = -6 }
 		}
 
 		iconType = {
 			name = "elector_outliner"
 			spriteType ="GFX_outliner_elector"
-			position = { x= 11 y = 0 }
+			position = { x= 11 y = -6 }
 		}
 	}
 

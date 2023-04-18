@@ -36,6 +36,7 @@ guiTypes = {
 			}
 			position = { x= -28 y = 185 }
 			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
 		}
 
 		iconType = {
@@ -50,7 +51,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "government_type"
-			position = { x=39	y=235 }
+			position = { x=48	y=235 }
 			format = left
 			textureFile = ""
 			font = "vic_29"
@@ -64,7 +65,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "reform_upgrades_available"
-			position = { x=2 y=270 }
+			position = { x=2 y=265 }
 			format = left
 			textureFile = ""
 			font = "vic_18"
@@ -90,7 +91,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "reform_upgrades_next"
-			position = { x=194 y=270 }
+			position = { x=194 y=265 }
 			format = right
 			textureFile = ""
 			font = "vic_18"
@@ -145,7 +146,7 @@ guiTypes = {
 			}
 			if_resolution = {
 				min_height = 1048
-				size = { x=507 y=638 }
+				size = { x=507 y=988 }
 			}
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
@@ -167,7 +168,7 @@ guiTypes = {
 			}
 			if_resolution = {
 				min_height = 1048
-				position = { x=180 y=968 }
+				position = { x=180 y=1318 }
 			}
 			quadTextureSprite = "button_type_7"
 			tooltip = ""

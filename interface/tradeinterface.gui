@@ -54,7 +54,7 @@ guiTypes = {
 			name = "TradeNodeInterface"
 			backGround=""
 			position = { x=-8 y=30 }
-			show_position = { x=-8 y=-493 }
+			show_position = { x=-8 y=-957 }
 			hide_position = { x=-8 y=30 }
 			animation_type = "decelerated"
 			animation_time = 300
@@ -140,7 +140,7 @@ guiTypes = {
 				name ="envoy_list"
 				position = { x = 391 y = 118 }
 				backGround=""
-				size = { x=222 y = 112}
+				size = { x=222 y = 392}
 				horizontal = 0
 				spacing = 0
 				scrollbartype = "standardlistbox_slider"
@@ -244,7 +244,7 @@ guiTypes = {
 
 
 			instantTextBoxType={
-				position = {x = 388 y  = 220 }
+				position = {x = 388 y  = 520 }
 				name = "our_from_this"
 				font = "vic_22"
 				borderSize = {x = 0 y = 0}
@@ -348,9 +348,9 @@ guiTypes = {
 			listboxType =
 			{
 				name ="power_list"
-				position = { x = 25 y = 295 }
+				position = { x = 25 y = 575 }
 				backGround=""
-				size = { x=626 y =180}
+				size = { x=626 y =360}
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
 				spacing = 0
@@ -393,7 +393,7 @@ guiTypes = {
 		guiButtonType = {
 			name ="sort_name"
 			quadTextureSprite = "GFX_sort_160"
-			position = { x = 28 y = 271 }
+			position = { x = 28 y = 551 }
 			buttonFont = "vic_18"
 			buttonText = "TN_COUNTRY"
 			pdx_tooltip = "TRADE_NAME_SORT_TOOLTIP"
@@ -403,7 +403,7 @@ guiTypes = {
 		guiButtonType = {
 			name ="sort_trader"
 			quadTextureSprite = "GFX_sort_trader"
-			position = { x = 186 y = 273 }
+			position = { x = 186 y = 553 }
 			pdx_tooltip = "TRADE_TRADER_SORT_TOOLTIP"
 			pdx_tooltip_delayed = "TRADE_TRADER_SORT_TOOLTIP_DELAYED"
 		}
@@ -411,7 +411,7 @@ guiTypes = {
 		guiButtonType = {
 			name ="sort_income_indicator"
 			quadTextureSprite = "GFX_sort_trade_target"
-			position = { x = 232 y = 273 }
+			position = { x = 232 y = 553 }
 			pdx_tooltip = "TRADE_MISSION_SORT"
 			pdx_tooltip_delayed = "TRADE_MISSION_SORT_DELAYED"
 		}
@@ -419,7 +419,7 @@ guiTypes = {
 		guiButtonType = {
 			name ="sort_income"
 			quadTextureSprite = "GFX_sort_income"
-			position = { x = 275 y = 273 }
+			position = { x = 275 y = 553 }
 			pdx_tooltip = "TRADE_INCOME_SORT"
 			pdx_tooltip_delayed = "TRADE_INCOME_SORT_DELAYED"
 		}
@@ -427,7 +427,7 @@ guiTypes = {
 		guiButtonType = {
 			name ="sort_income_modifier"
 			quadTextureSprite = "GFX_sort_modifier"
-			position = { x = 339 y = 273 }
+			position = { x = 339 y = 553 }
 			pdx_tooltip = "TRADE_INCOME_MOD_SORT"
 			pdx_tooltip_delayed = "TRADE_INCOME_MOD_SORT_DELAYED"
 		}
@@ -435,7 +435,7 @@ guiTypes = {
 		guiButtonType = {
 			name ="sort_ships"
 			quadTextureSprite = "GFX_sort_tp_ships"
-			position = { x = 407 y = 273 }
+			position = { x = 407 y = 553 }
 			pdx_tooltip = "TRADE_SHIPS_SORT"
 			pdx_tooltip_delayed = "TRADE_SHIPS_SORT_DELAYED"
 		}
@@ -443,7 +443,7 @@ guiTypes = {
 		guiButtonType = {
 			name ="sort_province"
 			quadTextureSprite = "GFX_sort_tp_provinces"
-			position = { x = 463  y = 273 }
+			position = { x = 463  y = 553 }
 			pdx_tooltip = "TRADE_PROVINCES_SORT"
 			pdx_tooltip_delayed = "TRADE_PROVINCES_SORT_DELAYED"
 		}
@@ -451,7 +451,7 @@ guiTypes = {
 		guiButtonType = {
 			name ="sort_max_tp_modifier"
 			quadTextureSprite = "GFX_sort_modifier3"
-			position = { x = 527 y = 273 }
+			position = { x = 527 y = 553 }
 			pdx_tooltip = "TRADE_MAX_POWER_MOD_SORT"
 			pdx_tooltip_delayed = "TRADE_MAX_POWER_MOD_SORT_DELAYED"
 		}
@@ -459,7 +459,7 @@ guiTypes = {
 		guiButtonType = {
 			name ="sort_current_power"
 			quadTextureSprite = "GFX_sort_trade_power3"
-			position = { x = 592  y = 273 }
+			position = { x = 592  y = 553 }
 			pdx_tooltip = "TRADE_CURRENT_POWER_SORT"
 			pdx_tooltip_delayed = "TRADE_CURRENT_POWER_SORT_DELAYED"
 		}
@@ -483,7 +483,7 @@ guiTypes = {
 			name = "TradeCompanyNodeInterface"
 			backGround=""
 			position = { x=-9 y=30 }
-			show_position = { x=-9 y=-497 }
+			show_position = { x=-9 y=-957 }
 			hide_position = { x=-9 y=30 }
 			animation_type = "decelerated"
 			animation_time = 300
@@ -609,7 +609,7 @@ guiTypes = {
 				name ="envoy_list"
 				position = { x = 391 y = 120 }
 				backGround=""
-				size = { x=220 y = 112}
+				size = { x=220 y = 392}
 				horizontal = 0
 				spacing = 0
 				scrollbartype = "standardlistbox_slider"
@@ -712,7 +712,7 @@ guiTypes = {
 			}
 
 			instantTextBoxType={
-				position = {x = 388 y  = 220 }
+				position = {x = 388 y  = 520 }
 				name = "our_from_this"
 				font = "vic_22"
 				borderSize = {x = 0 y = 0}
@@ -816,9 +816,9 @@ guiTypes = {
 			listboxType =
 			{
 				name ="power_list"
-				position = { x = 25 y = 295 }
+				position = { x = 25 y = 575 }
 				backGround=""
-				size = { x=626 y =180}
+				size = { x=626 y =360}
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
 				spacing = 0
@@ -868,7 +868,7 @@ guiTypes = {
 		guiButtonType = {
 			name ="sort_name"
 			quadTextureSprite = "GFX_sort_160"
-			position = { x = 28 y = 271 }
+			position = { x = 28 y = 551 }
 			buttonFont = "vic_18"
 			buttonText = "TN_COUNTRY"
 			pdx_tooltip = "TRADE_NAME_SORT_TOOLTIP"
@@ -878,7 +878,7 @@ guiTypes = {
 		guiButtonType = {
 			name ="sort_trader"
 			quadTextureSprite = "GFX_sort_trader"
-			position = { x = 186 y = 273 }
+			position = { x = 186 y = 553 }
 			pdx_tooltip = "TRADE_TRADER_SORT_TOOLTIP"
 			pdx_tooltip_delayed = "TRADE_TRADER_SORT_TOOLTIP_DELAYED"
 		}
@@ -886,7 +886,7 @@ guiTypes = {
 		guiButtonType = {
 			name ="sort_income_indicator"
 			quadTextureSprite = "GFX_sort_trade_target"
-			position = { x = 232 y = 273 }
+			position = { x = 232 y = 553 }
 			pdx_tooltip = "TRADE_MISSION_SORT"
 			pdx_tooltip_delayed = "TRADE_MISSION_SORT_DELAYED"
 		}
@@ -894,7 +894,7 @@ guiTypes = {
 		guiButtonType = {
 			name ="sort_income"
 			quadTextureSprite = "GFX_sort_income"
-			position = { x = 275 y = 273 }
+			position = { x = 275 y = 553 }
 			pdx_tooltip = "TRADE_INCOME_SORT"
 			pdx_tooltip_delayed = "TRADE_INCOME_SORT_DELAYED"
 		}
@@ -902,7 +902,7 @@ guiTypes = {
 		guiButtonType = {
 			name ="sort_income_modifier"
 			quadTextureSprite = "GFX_sort_modifier"
-			position = { x = 339 y = 273 }
+			position = { x = 339 y = 553 }
 			pdx_tooltip = "TRADE_INCOME_MOD_SORT"
 			pdx_tooltip_delayed = "TRADE_INCOME_MOD_SORT_DELAYED"
 		}
@@ -910,7 +910,7 @@ guiTypes = {
 		guiButtonType = {
 			name ="sort_ships"
 			quadTextureSprite = "GFX_sort_tp_ships"
-			position = { x = 407 y = 273 }
+			position = { x = 407 y = 553 }
 			pdx_tooltip = "TRADE_SHIPS_SORT"
 			pdx_tooltip_delayed = "TRADE_SHIPS_SORT_DELAYED"
 		}
@@ -918,7 +918,7 @@ guiTypes = {
 		guiButtonType = {
 			name ="sort_province"
 			quadTextureSprite = "GFX_sort_tp_provinces"
-			position = { x = 463  y = 273 }
+			position = { x = 463  y = 553 }
 			pdx_tooltip = "TRADE_PROVINCES_SORT"
 			pdx_tooltip_delayed = "TRADE_PROVINCES_SORT_DELAYED"
 		}
@@ -926,7 +926,7 @@ guiTypes = {
 		guiButtonType = {
 			name ="sort_max_tp_modifier"
 			quadTextureSprite = "GFX_sort_modifier3"
-			position = { x = 527 y = 273 }
+			position = { x = 527 y = 553 }
 			pdx_tooltip = "TRADE_MAX_POWER_MOD_SORT"
 			pdx_tooltip_delayed = "TRADE_MAX_POWER_MOD_SORT_DELAYED"
 		}
@@ -934,7 +934,7 @@ guiTypes = {
 		guiButtonType = {
 			name ="sort_current_power"
 			quadTextureSprite = "GFX_sort_trade_power3"
-			position = { x = 592  y = 273 }
+			position = { x = 592  y = 553 }
 			pdx_tooltip = "TRADE_CURRENT_POWER_SORT"
 			pdx_tooltip_delayed = "TRADE_CURRENT_POWER_SORT_DELAYED"
 		}

@@ -985,7 +985,7 @@ guiTypes = {
             }
             if_resolution = {
 			min_height = 1048
-			position = { x=208 y =830 }
+			position = { x=208 y =1010 }
 			}			
 			quadTextureSprite ="GFX_recruit_general"
 			clicksound = hire_general
@@ -1005,7 +1005,7 @@ guiTypes = {
             }
             if_resolution = {
 			min_height = 1048
-			position = { x=260 y =830 }
+			position = { x=260 y =1010 }
 			}			
 			quadTextureSprite ="GFX_recruit_conquistador"
 			clicksound = hire_conquistador
@@ -1025,7 +1025,7 @@ guiTypes = {
             }
             if_resolution = {
 			min_height = 1048
-			position = { x=312 y =830 }
+			position = { x=312 y =1010 }
 			}				
 			quadTextureSprite ="GFX_recruit_admiral"
 			clicksound = hire_admiral
@@ -1045,7 +1045,7 @@ guiTypes = {
             }
             if_resolution = {
 			min_height = 1048
-			position = { x=364 y =830 }
+			position = { x=364 y =1010 }
 			}				
 			quadTextureSprite ="GFX_recruit_explorer"
 			clicksound = hire_explorer
@@ -1065,7 +1065,7 @@ guiTypes = {
             }
             if_resolution = {
 				min_height = 1048
-				position = { x=416 y =830 }
+				position = { x=416 y =1010 }
 			}				
 			quadTextureSprite ="GFX_convert_ruler_to_general"
 			clicksound = hire_general
@@ -1105,7 +1105,7 @@ guiTypes = {
             }
             if_resolution = {
 			min_height = 1048
-			position = { x=468 y =830 }
+			position = { x=468 y =1010 }
 			}				
 			quadTextureSprite ="GFX_convert_heir_to_general"			
 			clicksound = hire_general
@@ -1774,7 +1774,7 @@ guiTypes = {
 			name ="automatic_full_maintenance_checkbox"
 			if_resolution = {
             max_height = 867
-			position = { x=248 y =514 }
+			position = { x=208 y =514 }
             }
             if_resolution = {
 			min_height = 868
@@ -1797,7 +1797,7 @@ guiTypes = {
 			name = "automatic_full_maintenance_label"
 			if_resolution = {
             max_height = 867
-			position = { x=268 y =513 }
+			position = { x=228 y =513 }
 			maxWidth = 300
 			maxHeight = 40
             }
@@ -1944,7 +1944,7 @@ guiTypes = {
 			name ="domesticpanel_unit_select_list"
 			position = { x=38 y =208}
 			backGround=""
-			size = { x=460 y =306}
+			size = { x=460 y =656}
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 0
@@ -1954,7 +1954,7 @@ guiTypes = {
 		
 		guiButtonType = {
 				name = "back_button"
-				position = { x=240 y =531}
+				position = { x=240 y =861}
 				quadTextureSprite ="GFX_standard_button_71"	
 				tooltip = ""
 				tooltipText =""

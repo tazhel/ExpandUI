@@ -9,7 +9,7 @@ guiTypes = {
 		verticalBorder= ""
 		fullScreen = no
 		Orientation = "CENTER"
-		moveable = 0
+		moveable = 1
 
 		upsound = papacy
 		downsound = ""
@@ -160,7 +160,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "invest_button"
-			position = { x=106 y=127 }
+			position = { x=103 y=127 }
 			quadTextureSprite ="GFX_invest_papacy_button"
 			tooltip = ""
 			tooltipText =""
@@ -363,7 +363,7 @@ guiTypes = {
 		{
 			name ="diplomatic_actions_icon"
 			spriteType = "GFX_more_dip_actions_icon_papacy"
-			position = { x= 252 y = 180 }
+			position = { x= 195 y = 180 }
 			Orientation = "UPPER_LEFT"
 			hint_tag = "hint_papalactions"
 			scale = 0.8
@@ -446,7 +446,7 @@ guiTypes = {
         	iconType = {
             	name = "tithe_state"
             	spriteType = "GFX_tithe_state"
-            	position = { x=67 y=69 }
+            	position = { x=70 y=70 }
             	Orientation = "UPPER_LEFT"
             	scale = 0.75
         	}

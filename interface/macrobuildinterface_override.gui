@@ -950,12 +950,12 @@ guiTypes = {
 
 			checkboxType = {
 				name = "show_subjects"
-				position = { x= -7 y=466 }
+				position = { x= -7 y=1125 }
 				quadTextureSprite ="GFX_checkbox_gold_32"
 			}
 			instantTextBoxType={
 				name = "show_subjects_title"
-				position = {x = 27 y = 470 }
+				position = {x = 27 y = 1129 }
 				font = "vic_22"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 160
@@ -1168,7 +1168,7 @@ guiTypes = {
 				name ="listbox"
 				position = { x = 19 y = 40 }
 				backGround=""
-				size = { x= 270 y = 420 }
+				size = { x= 272 y = 420 }
 				horizontal = 0
 				spacing = 0
 				scrollbartype = "standardlistbox_slider"
@@ -1241,7 +1241,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "close_button"
-				position = { x = 40 y = 472 }
+				position = { x = 40 y = 1129 }
 				quadTextureSprite ="button_type_1"
 				buttonFont = "vic_18"
 				buttonText = "CLOSE"
@@ -1250,13 +1250,13 @@ guiTypes = {
 
 			checkboxType = {
 				name = "show_subjects"
-				position = { x=220 y=472 }
+				position = { x=220 y=1125 }
 				quadTextureSprite ="GFX_checkbox_gold_32"
 			}
 
 			instantTextBoxType={
 				name = "show_subjects_title"
-				position = {x = 254 y = 475 }
+				position = {x = 254 y = 1128 }
 				font = "vic_22"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 148
@@ -1347,13 +1347,13 @@ guiTypes = {
 			
 			checkboxType = {
 				name = "show_subjects"
-				position = { x=196 y=467 }
+				position = { x=196 y=1125 }
 				quadTextureSprite ="GFX_checkbox_gold_32"
 			}
 
 			instantTextBoxType={
 				name = "show_subjects_title"
-				position = {x = 230 y = 470 }
+				position = {x = 230 y = 1129 }
 				font = "vic_22"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 160
@@ -1364,13 +1364,13 @@ guiTypes = {
 
 			checkboxType = {
 				name = "show_territories"
-				position = { x=-11 y=467 }
+				position = { x=-11 y=1125 }
 				quadTextureSprite ="GFX_checkbox_gold_32"
 			}
 
 			instantTextBoxType={
 				name = "show_territories_title"
-				position = {x = 23 y = 470 }
+				position = {x = 23 y = 1129 }
 				font = "vic_22"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 148
@@ -1431,13 +1431,13 @@ guiTypes = {
 
 			checkboxType = {
 				name = "show_territories"
-				position = { x=-11 y=467 }
+				position = { x=-11 y=1125 }
 				quadTextureSprite ="GFX_checkbox_gold_32"
 			}
 
 			instantTextBoxType={
 				name = "show_territories_title"
-				position = {x = 23 y = 470 }
+				position = {x = 23 y = 1129 }
 				font = "vic_22"
 				borderSize = {x = 0 y = 0}
 				maxWidth = 148
@@ -1602,9 +1602,9 @@ guiTypes = {
 			
 			listboxType = {
 				name ="action_type_list"
-				position = { x = 26 y = 40 }
+				position = { x = 36 y = 40 }
 				backGround=""
-				size = { x= 264 y = 136 }
+				size = { x= 264 y = 320 }
 				horizontal = 0
 				spacing = 0
 				scrollbartype = "standardlistbox_slider"
@@ -1615,7 +1615,7 @@ guiTypes = {
 		windowType = {
 			name = "diplomacy_target_list_window"
 			backGround =""
-			position = { x=8 y=100 }
+			position = { x=8 y=295 }
 			size = { x=200 y= 30 }
 			moveable = 0
 			dontRender = ""
@@ -1643,7 +1643,7 @@ guiTypes = {
 				name ="action_list"
 				position = { x = 17 y = 225 }
 				backGround=""
-				size = { x= 369 y = 232 } 
+				size = { x= 369 y = 700 } 
 				horizontal = 0
 				spacing = 0
 				scrollbartype = "standardlistbox_slider"
@@ -1727,7 +1727,7 @@ guiTypes = {
 				name ="mercenary_company_list"
 				position = { x = 5 y = 50 }
 				backGround=""
-				size = { x= 380 y = 355 }
+				size = { x= 380 y = 955 }
 				horizontal = 0
 				spacing = 0
 				scrollbartype = "standardlistbox_slider"
@@ -2381,7 +2381,7 @@ guiTypes = {
 			name ="content_list"
 			position = { x = 5 y = 84 }
 			backGround=""
-			size = { x= 400 y = 426 }
+			size = { x= 400 y = 1075 }
 			horizontal = 0
 			spacing = 0
 			scrollbartype = "standardlistbox_slider"
@@ -2391,7 +2391,7 @@ guiTypes = {
 		
 		instantTextBoxType={
 			name = "force_limit"
-			position = {x = 28 y = 526 }
+			position = {x = 25 y = 1175 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 380
@@ -2401,7 +2401,7 @@ guiTypes = {
 		
 		instantTextBoxType={
 			name = "units_in_production"
-			position = {x = 28 y = 543 }
+			position = {x = 25 y = 1192 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 380
@@ -2463,39 +2463,39 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "status_button"
-				position = { x= 59 y = 9 }
+				position = { x= 89 y = 9 }
 				quadTextureSprite ="GFX_sort_states_status"
 			}
 
 			guiButtonType = {
 				name = "provinces_button"
-				position = { x= 95 y = 9 }
+				position = { x= 130 y = 9 }
 				quadTextureSprite ="GFX_sort_states_provinces"
 			}
 
 			guiButtonType = {
 				name = "development_button_top"
-				position = { x= 128 y = 9 }
+				position = { x= 171 y = 9 }
 				quadTextureSprite ="GFX_sort_state_development"
 			}
 
 			guiButtonType = {
 				name = "income_button"
-				position = { x= 165 y = 9 }
+				position = { x= 212 y = 9 }
 				quadTextureSprite ="GFX_sort_states_income"
 			}
 
 			guiButtonType = {
 				name = "prosperity_button"
-				position = { x= 203 y = 9 }
+				position = { x= 253 y = 9 }
 				quadTextureSprite ="GFX_sort_states_prosperity"
 			}
 
 			smoothListboxType = {
 				name ="listbox"
-				position = { x = -35 y = 34 }
+				position = { x = -35 y = 30 }
 				backGround=""
-				size = { x= 393 y = 415 }
+				size = { x= 393 y = 1070 }
 				horizontal = 0
 				spacing = 0
 				scrollbartype = "standardlistbox_slider"
@@ -2542,7 +2542,7 @@ guiTypes = {
 				name ="listbox"
 				position = { x = -35 y = 30 }
 				backGround=""
-				size = { x= 393 y = 415 }
+				size = { x= 393 y = 1070 }
 				horizontal = 0
 				spacing = 0
 				scrollbartype = "standardlistbox_slider"
@@ -3141,7 +3141,7 @@ guiTypes = {
 		name = "states_tab_administration_entry"
 		backGround=""
 		position = { x=0 y =0}	
-		size = { x=345 y = 40}
+		size = { x=330 y = 36}
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
@@ -3159,14 +3159,14 @@ guiTypes = {
 			position = {x = 5 y = 8 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
-			maxWidth = 115
+			maxWidth = 156
 			maxHeight = 18
 			fixedsize = yes
 		}
 
 		iconType = {
 			name = "is_state_status"
-			position = { x = 100 y = 3 }
+			position = { x = 130 y = 3 }
 			spriteType = "GFX_in_state_icon"
 		}
 		
@@ -3178,17 +3178,17 @@ guiTypes = {
 		
 		iconType = {
 			name = "is_trade_company_status"
-			position = { x = 100 y = 3 }
+			position = { x = 130 y = 3 }
 			spriteType = "GFX_trade_company_icon"
 		}
 
 
 		instantTextBoxType={
 			name = "provinces"
-			position = {x = 137 y = 8 }
+			position = {x = 170 y = 8 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
-			maxWidth = 30
+			maxWidth = 36
 			maxHeight = 18
 			fixedsize = yes
 			format = center
@@ -3196,10 +3196,10 @@ guiTypes = {
 
 		instantTextBoxType={
 			name = "development"
-			position = {x = 169 y = 8 }
+			position = {x = 212 y = 8 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
-			maxWidth = 30
+			maxWidth = 36
 			maxHeight = 18
 			fixedsize = yes
 			format = center
@@ -3207,7 +3207,7 @@ guiTypes = {
 
 		instantTextBoxType={
 			name = "income"
-			position = {x = 200 y = 8 }
+			position = {x = 249 y = 8 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
 			maxWidth = 44
@@ -3218,10 +3218,10 @@ guiTypes = {
 
 		instantTextBoxType={
 			name = "prosperity"
-			position = {x = 240 y = 8 }
+			position = {x = 293 y = 8 }
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}	
-			maxWidth = 33
+			maxWidth = 36
 			maxHeight = 18
 			fixedsize = yes
 			format = center
@@ -3242,7 +3242,7 @@ guiTypes = {
 		guiButtonType = {
 			name = "abandon_state"
 			quadTextureSprite = "GFX_abandon_state_button"
-			position = { x = 330 y = 1 }
+			position = { x = 330 y = 0 }
 		}
 
 		guiButtonType = {
@@ -3254,7 +3254,7 @@ guiTypes = {
 		guiButtonType = {
 			name = "core_all"
 			quadTextureSprite = "GFX_core_all_button"
-			position = { x = 360 y = 1 }
+			position = { x = 360 y = 0 }
 		}
 	}
 

@@ -4,7 +4,7 @@ guiTypes = {
 		name ="hre_vote_box"
 		backGround="hre_vote_box"
 		position = { x= 10 y =180 }	
-		size = { x=330 y =400 }
+		size = { x=330 y =552 }
 		moveable = 1
 		dontRender = ""
 		horizontalBorder= ""

@@ -2,7 +2,7 @@ guiTypes = {
 	windowType = {
 		name = "achievements_window"
 		backGround=""
-		position = { x=-380 y=-290 }	
+		position = { x=-380 y=-440 }	
 		size = { x=1000 y=1000 }
 		moveable = 0
 		dontRender = ""
@@ -34,7 +34,7 @@ guiTypes = {
 			name ="achievement_list"
 			position = { x = 20 y = 56 }
 			backGround=""
-			size = { x=725  y =499}
+			size = { x=725  y =799}
 			Orientation = "UPPER_LEFT"
 			spacing = 2
 			scrollbartype = "standardlistbox_slider"
@@ -44,7 +44,7 @@ guiTypes = {
 		guiButtonType = {
 			name ="close_button"
 			quadTextureSprite ="button_type_4"
-			position = { x= 284 y = 563 }
+			position = { x= 284 y = 863 }
 			buttonText = "CLOSE"
 			buttonFont = "vic_18"
 			shortcut = "ESCAPE"

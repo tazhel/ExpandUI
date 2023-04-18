@@ -492,7 +492,7 @@ guiTypes = {
 
 		guiButtonType = {
 				name = "back_button"
-				position = { x=286 y=452 }
+				position = { x=286 y=952 }
 				quadTextureSprite ="button_type_7"	
 				tooltip = ""
 				tooltipText =""
@@ -506,7 +506,7 @@ guiTypes = {
 
 		guiButtonType = {
 				name = "noleader_button"
-				position = { x=57 y=452 }
+				position = { x=57 y=952 }
 				quadTextureSprite ="button_type_7"	
 				tooltip = ""
 				tooltipText =""
@@ -602,7 +602,7 @@ guiTypes = {
 			name ="leaderlist"
 			position = { x = 80 y = 113 }
 			backGround=""
-			size = { x=265  y =340 }
+			size = { x=265  y =840 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 2
@@ -621,7 +621,7 @@ guiTypes = {
 		name = "leader_entry"
 		backGround=""
 		position = { x=0 y=0 }	
-		size = { x=260 y= 52 }
+		size = { x=360 y= 52 }
 		moveable = 0
 		dontRender = ""
 		horizontalBorder= ""
@@ -775,7 +775,7 @@ guiTypes = {
 			name ="arealist"
 			position = { x = 80 y = 113 }
 			backGround=""
-			size = { x=330  y =340 }
+			size = { x=330  y =840 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 2
@@ -785,7 +785,7 @@ guiTypes = {
 
 		guiButtonType = {
 				name = "accept_button"
-				position = { x=262 y=442 }
+				position = { x=262 y=942 }
 				quadTextureSprite ="button_type_7"	
 				buttonText = "LEDGER_CLOSE"
 				buttonFont = "vic_18"
@@ -795,7 +795,7 @@ guiTypes = {
 		
 		guiButtonType = {
 				name = "cancel_button"
-				position = { x=62 y=442 }
+				position = { x=62 y=942 }
 				quadTextureSprite ="button_type_7"	
 				buttonText = "STOP_MISSION"
 				buttonFont = "vic_18"

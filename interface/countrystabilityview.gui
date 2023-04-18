@@ -12,7 +12,7 @@ guiTypes = {
 	#y is the size increase for lists and distance to move for buttons at the bottom of the country view
 	positionType = {
 		name ="countrystabilityview_scaling_huge_min_inc"
-		position = { x= 1080 y = 269 }
+		position = { x= 1080 y = 258 }
 	}
 
 
@@ -466,14 +466,14 @@ guiTypes = {
 		{
 			name ="governing_capacity_icon"
 			spriteType = "GFX_governing_capacity"
-			position = { x= 32 y = 290 }
+			position = { x= 20 y = 278 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.75
 		}
 
 		instantTextBoxType = {
 			name = "Governing Capacity_label"
-			position = { x = 56 y = 287 }
+			position = { x = 58 y = 287 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -589,7 +589,7 @@ guiTypes = {
 			}
 			if_resolution = {
 				min_height = 1080
-				position = {x = 50 y = 826 }
+				position = {x = 50 y = 1150 }
 			}
 			textureFile = ""
 			font = "vic_18"
@@ -614,7 +614,7 @@ guiTypes = {
 			}
 			if_resolution = {
 				min_height = 1080
-				position = {x = 23 y = 826 }
+				position = {x = 23 y = 1150 }
 			}
 			quadTextureSprite ="GFX_checkbox_gold_24"
 			tooltip = ""
@@ -678,11 +678,11 @@ guiTypes = {
 		listboxType = {
 			name = "revolters_listbox"
 			backGround = ""
-			position = { x=22 y=385 }
-			size = { x=482 y=163 }
+			position = { x=25 y=385 }
+			size = { x=482 y=413 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
-			spacing = 0
+			spacing = 1.5
 			scrollbartype = "standardlistbox_slider"
 			borderSize = {x = 0 y = 0}
 		}
@@ -717,7 +717,8 @@ guiTypes = {
 				name ="sort_overext_tax"
 				quadTextureSprite = "GFX_sort_62_dev"
 				position = { x = 114 y = 46 }
-				buttonFont = "vic_18"
+#				buttonFont = "vic_18"
+#				buttonText = "LEDGER_DEVELOPMENT"
 				pdx_tooltip = "SORT_BY_DEVELOPMENT"
 				pdx_tooltip_delayed = ""
 			}
@@ -756,7 +757,8 @@ guiTypes = {
 				name ="sort_cores"
 				quadTextureSprite = "GFX_sort_79_core"
 				position = { x = 404 y = 46 }
-				buttonFont = "vic_18"
+#				buttonFont = "vic_18"
+#				buttonText = "GIVE_UP_CORES"
 				pdx_tooltip = "GIVE_UP_CORES"
 				pdx_tooltip_delayed = ""
 			}
@@ -766,7 +768,7 @@ guiTypes = {
 				name ="list"
 				position = { x = 6 y = 74 }
 				backGround=""
-				size = { x=480 y = 132}
+				size = { x=480 y = 492}
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
 				spacing = 0
@@ -776,7 +778,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "back"
-				position = { x= 4 y = 216 }
+				position = { x= 4 y = 600 }
 				quadTextureSprite ="GFX_button_straight_87_32"
 				buttonText = "BACK"
 				buttonFont = "vic_18"
@@ -787,7 +789,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "core_all"
-				position = { x= 400 y = 216 }
+				position = { x= 400 y = 600 }
 				quadTextureSprite ="GFX_button_straight_87_32"
 				buttonText = "CORE_ALL"
 				buttonFont = "vic_18"
@@ -952,7 +954,7 @@ guiTypes = {
 				name = "demands_listbox"
 				backGround = ""
 				position = { x=60 y=482 }
-				size = { x=227 y=87 }
+				size = { x=227 y=387 }
 				horizontal = 0
 				spacing = 1
 				scrollbartype = "standardlistbox_slider"
@@ -963,7 +965,7 @@ guiTypes = {
 				name = "handle_listbox"
 				backGround = ""
 				position = { x=311 y=392 }
-				size = { x=200 y=132 }
+				size = { x=200 y=432 }
 				horizontal = 0
 				spacing = 1
 				scrollbartype = "standardlistbox_slider"

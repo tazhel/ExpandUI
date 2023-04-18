@@ -185,14 +185,14 @@ guiTypes = {
 		listboxType = 
 		{
 			name ="monarch_ruler_personality_list"
-			position = { x=170 y =138}
+			position = { x=160 y =128}
 			backGround=""
-			size = { x=250 y =300}
+			size = { x=300 y =300}
 			Orientation = "UPPER_LEFT"
 			horizontal = 1
 			spacing = 2
 			scrollbartype = "standardlistbox_slider"
-			borderSize = {x = 0 y = 0}
+			borderSize = {x = 10 y = 10}
 		}
 
 		instantTextBoxType = {
@@ -331,14 +331,14 @@ guiTypes = {
 		listboxType = 
 		{
 			name ="monarch_heir_personality_list"
-			position = { x=170 y =203}
+			position = { x=160 y =191}
 			backGround=""
 			size = { x=220 y =100}
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 2
 			scrollbartype = "standardlistbox_slider"
-			borderSize = {x = 0 y = 0}
+			borderSize = {x = 10 y = 10}
 		}
 				
 		guiButtonType = {
@@ -485,14 +485,14 @@ guiTypes = {
 		listboxType = 
 		{
 			name ="monarch_queen_personality_list"
-			position = { x=170 y =265}
+			position = { x=160 y =254}
 			backGround=""
 			size = { x=220 y =100}
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 2
 			scrollbartype = "standardlistbox_slider"
-			borderSize = {x = 0 y = 0}
+			borderSize = {x = 10 y = 10}
 		}
 
 		### -----------
@@ -640,17 +640,17 @@ guiTypes = {
 				name ="court_select_slider"
 				position = { x=86 y =170}
 				backGround=""
-				size = { x=382 y =350}
+				size = { x=392 y =700}
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
 				spacing = 2
 				scrollbartype = "standardlistbox_slider"
-				borderSize = {x = 10 y = 10}
+				borderSize = {x = 10 y = 20}
 			}
 			
 			guiButtonType = {
 				name = "back_button"
-				position = { x=240 y =531}
+				position = { x=240 y =1200}
 				quadTextureSprite ="GFX_standard_button_71"	
 				tooltip = ""
 				tooltipText =""
