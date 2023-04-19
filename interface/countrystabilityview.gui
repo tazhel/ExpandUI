@@ -589,7 +589,7 @@ guiTypes = {
 			}
 			if_resolution = {
 				min_height = 1080
-				position = {x = 50 y = 1150 }
+				position = {x = 70 y = 1180 }
 			}
 			textureFile = ""
 			font = "vic_18"
@@ -614,7 +614,7 @@ guiTypes = {
 			}
 			if_resolution = {
 				min_height = 1080
-				position = {x = 23 y = 1150 }
+				position = {x = 40 y = 1180 }
 			}
 			quadTextureSprite ="GFX_checkbox_gold_24"
 			tooltip = ""
@@ -678,8 +678,8 @@ guiTypes = {
 		listboxType = {
 			name = "revolters_listbox"
 			backGround = ""
-			position = { x=25 y=385 }
-			size = { x=482 y=413 }
+			position = { x=25 y=382 }
+			size = { x=482 y=540 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 1.5
@@ -768,7 +768,7 @@ guiTypes = {
 				name ="list"
 				position = { x = 6 y = 74 }
 				backGround=""
-				size = { x=480 y = 492}
+				size = { x=480 y = 530}
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
 				spacing = 0

@@ -1912,15 +1912,15 @@ guiTypes = {
 			
 			OverlappingElementsBoxType = {
 				name = "powers"	
-				position = { x = 7  y = -56 }
-				size = { x=300 y= 25 }
+				position = { x = -20  y = -6 }
+				size = { x=350 y= 25 }
 				format = center
-				spacing = 55
+				spacing = 60
 			}
 
 			instantTextBoxType = {
 				name = "fervor_monthly_change"
-				position = { x = 12 y = -17 }
+				position = { x = 22 y = -61 }
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "FERVOR_CHANGE"
@@ -1932,7 +1932,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "fervor_current_change"
-				position = { x = 140 y = -17 }
+				position = { x = 150 y = -61 }
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "123"
@@ -1944,7 +1944,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "fervor_value"
-				position = { x = 12 y = 5 }
+				position = { x = 22 y = -32 }
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "FERVOR_VALUE2"
@@ -1956,7 +1956,7 @@ guiTypes = {
 			
 			instantTextBoxType = {
 				name = "fervor_current_value"
-				position = { x = 140 y = 5 }
+				position = { x = 150 y = -32 }
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
 				text = "3,1"
@@ -2543,7 +2543,7 @@ guiTypes = {
 				name ="aspect_listbox"
 				position = { x=56 y = -53}
 				backGround=""
-				size = { x=398 y =280}
+				size = { x=398 y =560}
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
 				spacing = 1
@@ -2553,7 +2553,7 @@ guiTypes = {
 			
 			guiButtonType = {
 				name = "cancel"
-				position = { x=190 y = 230 }
+				position = { x=190 y = 508 }
 				quadTextureSprite ="GFX_standard_button_71"
 				buttonText = "BACK"
 				buttonFont = "vic_18"
