@@ -483,7 +483,7 @@ guiTypes = {
 			{
 				name ="ship_load_capacity_bg"
 				spriteType = "GFX_unitpanel_ships_load_capacity_bg"
-				position = { x= 9 y = 888 }
+				position = { x= 9 y = 388 }
 				Orientation = "LOWER_LEFT"
 			}
 	
@@ -700,7 +700,7 @@ guiTypes = {
 			}
 			instantTextBoxType = {
 				name = "lu_unit_type_3_value"
-				position = { x = 264 y = 123 }
+				position = { x = 264 y = 122 }
 				textureFile = ""
 				font = "vic_18"
 				borderSize = {x = 0 y = 0}
@@ -725,7 +725,7 @@ guiTypes = {
 			name ="subunitlist"
 			position = { x = 50 y = 149 }
 			backGround=""
-			size = { x=295  y =800}
+			size = { x=295  y =300}
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 2
@@ -850,7 +850,7 @@ guiTypes = {
 			}
 			guiButtonType = {
 				name = "close"
-				position = { x = 100 y = 783 }
+				position = { x = 100 y = 277 }
 				quadTextureSprite ="button_type_1"
 				buttonFont = "vic_18"
 				buttonText = "CLOSE"
@@ -859,13 +859,13 @@ guiTypes = {
 		iconType = {
 			name ="mission_icon"
 			spriteType = "GFX_outliner_action"
-			position = { x= 34 y = 860 }
+			position = { x= 34 y = 360 }
 			Orientation = "LOWER_LEFT"
 			frame = 1
 		}
 		instantTextBoxType = {
 			name = "mission_desc"
-			position = { x = 46 y = 955 }
+			position = { x = 46 y = 455 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -881,7 +881,7 @@ guiTypes = {
 		{
 			name ="sailor_maintenance"
 			spriteType = "GFX_icon_sailor_maintenance"
-			position = { x= 336 y = 955 }
+			position = { x= 336 y = 450 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
 		}
@@ -889,7 +889,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "load_capacity"
-			position = { x = 28 y = 991 }
+			position = { x = 28 y = 491 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -956,7 +956,7 @@ guiTypes = {
 			name ="unitlist"
 			position = { x= -80 y = 42 }
 			backGround=""
-			size = { x= 500  y = 1000 }
+			size = { x= 500  y = 500 }
 			horizontal = 0
 			spacing = 0
 			scrollbartype = "standardlistbox_slider"
@@ -970,7 +970,7 @@ guiTypes = {
 		{
 			name ="multiselect_bg"
 			spriteType = "GFX_multiselection_bg"
-			position = { x= 93 y = 53 }
+			position = { x= 94 y = 53 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -988,7 +988,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "mergebutton"
-			position = { x = 344 y = 59 }
+			position = { x = 345 y = 60 }
 			quadTextureSprite ="GFX_multi_merge_button"
 			tooltip = ""
 			tooltipText =""
@@ -1000,7 +1000,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "deselect_all"
-			position = { x = 376 y = 58 }
+			position = { x = 376 y = 60 }
 			quadTextureSprite ="GFX_remove_unit_button"
 			tooltip = ""
 			tooltipText =""
@@ -1011,7 +1011,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "reorganizebutton"
-			position = { x = 312 y = 60 }
+			position = { x = 313 y = 60 }
 			quadTextureSprite ="GFX_reorg_button"
 			tooltip = ""
 			tooltipText =""
