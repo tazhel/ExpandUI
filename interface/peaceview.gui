@@ -101,7 +101,7 @@ guiTypes = {
 			spriteType = "GFX_no_peace"
 			position = { x= 1 y = 15 }
 			Orientation = "UPPER_LEFT"
-			alwaystransparent = yes				
+			alwaystransparent = yes			
 		}
 
 
@@ -731,9 +731,15 @@ guiTypes = {
 		guiButtonType = {
 			name = "sort_text"
 			position = { x = 83 y = 184 }
-			quadTextureSprite ="GFX_sort_186"
+			quadTextureSprite ="GFX_sort_160_peace"
 			buttonText = "PEACE_NAME"
 			buttonFont = "vic_18"
+		}
+
+		guiButtonType = {
+			name = "sort_giver"
+			position = { x = 241 y = 182 }
+			quadTextureSprite = "GFX_sort_shield"
 		}
 					
 		guiButtonType = {
@@ -843,6 +849,28 @@ guiTypes = {
 			name ="claim_button"
 			position = { x= 182 y = -1 }
 			quadTextureSprite = "GFX_shield_small_claim"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_18"
+			Orientation = "UPPER_LEFT"
+		}
+		guiButtonType =
+		{
+			name ="core_button"
+			position = { x= 158 y = -1 }
+			quadTextureSprite = "GFX_shield_small"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "vic_18"
+			Orientation = "UPPER_LEFT"
+		}	
+		guiButtonType =
+		{
+			name ="perma_claim_button"
+			position = { x= 158 y = -1 }
+			quadTextureSprite = "GFX_shield_small_permanent_claim"
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
