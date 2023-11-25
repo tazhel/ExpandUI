@@ -3,7 +3,7 @@ guiTypes = {
 	windowType = {
 		name = "estate_privileges_window"
 		position = { x=-315 y=-710}	
-		size = { x=750 y=1430 }
+		size = { x=1050 y=1430 }
 		moveable = 1
 		dontRender = ""
 		horizontalBorder= ""
@@ -35,7 +35,7 @@ guiTypes = {
 		{
 			name ="copts_list_bg"
 			spriteType = "GFX_copts_list_bg"
-			position = { x= 66 y = 18 }
+			position = { x= -84 y = 18 }
 		}
 		
 		instantTextBoxType = {
@@ -54,7 +54,7 @@ guiTypes = {
 			name ="privileges_listbox"
 			position = { x = 115 y = 135 }
 			backGround=""
-			size = { x = 518 y = 1190 }
+			size = { x = 668 y = 1190 }
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			scrollbartype = "standardlistbox_slider"
@@ -87,11 +87,11 @@ guiTypes = {
 		iconType = {
 			name = "title_banner"
 			spriteType ="GFX_estate_privilege_entry"	
-			position = { x = -15 y = -15 }
+			position = { x = -165 y = -15 }
 		}
 		
 		instantTextBoxType = {
-			position = { x = 58 y = -6}
+			position = { x = -92 y = -6}
 			name = "title"
 			font = "vic_22s"
 			borderSize = {x = 0 y = 0}	
@@ -103,7 +103,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "modifiers"
-			position = { x = 13 y = 41 }
+			position = { x = -137 y = 45 }
 			format = left
 			textureFile = ""
 			font = "vic_18"
@@ -115,14 +115,14 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "effects"
-			position = { x = 256 y = 41 }
+			position = { x = 155 y = -4 }
 			format = left
 			textureFile = ""
 			font = "vic_18"
 			text = ""
-			maxWidth = 225
-			maxHeight = 100
-			fixedsize = yes
+			maxWidth = 480
+			maxHeight = 180
+			scrollbartype = "standardlistbox_slider"
 		}
 
 		instantTextBoxType = {
@@ -138,7 +138,7 @@ guiTypes = {
 
 		WindowType = {
 			name = "loyalty_entry"
-			position = { x = 54 y = 12 }
+			position = { x = -96 y = 12 }
 			size = { x = 65 y = 26 }
 
 			iconType = {
@@ -166,7 +166,7 @@ guiTypes = {
 
 		WindowType = {
 			name = "influence_entry"
-			position = { x = 120 y = 12 }
+			position = { x = -30 y = 12 }
 			size = { x = 65 y = 26 }
 		
 			iconType = {
@@ -194,7 +194,7 @@ guiTypes = {
 
 		WindowType = {
 			name = "landshare_entry"
-			position = { x = 185 y = 13 }
+			position = { x = 35 y = 13 }
 			size = { x = 65 y = 26 }
 
 			iconType = {
@@ -222,7 +222,7 @@ guiTypes = {
 
 		windowType = {
 			name = "max_absolutism_entry"
-			position = { x = 248 y = 19 }
+			position = { x = 98 y = 19 }
 			size = { x = 65 y = 26 }
 
 			iconType = {
@@ -250,14 +250,14 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "privilege_frame_button"
-			position = { x = -1 y = -15 }
+			position = { x = -151 y = -15 }
 			quadTextureSprite ="GFX_privilege_blank"	
 			Orientation = "UPPER_LEFT"
 		}
 
 		guiButtonType = {
 			name = "privilege_button"
-			position = { x=-3 y = -15 }
+			position = { x=-153 y = -15 }
 			quadTextureSprite ="GFX_idea_unknown"
 			Orientation = "UPPER_LEFT"
 		}

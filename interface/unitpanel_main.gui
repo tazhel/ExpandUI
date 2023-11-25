@@ -483,7 +483,7 @@ guiTypes = {
 			{
 				name ="ship_load_capacity_bg"
 				spriteType = "GFX_unitpanel_ships_load_capacity_bg"
-				position = { x= 9 y = 388 }
+				position = { x= 9 y = 888 }
 				Orientation = "LOWER_LEFT"
 			}
 	
@@ -881,7 +881,7 @@ guiTypes = {
 		{
 			name ="sailor_maintenance"
 			spriteType = "GFX_icon_sailor_maintenance"
-			position = { x= 336 y = 450 }
+			position = { x= 336 y = 950 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
 		}
@@ -889,7 +889,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "load_capacity"
-			position = { x = 28 y = 491 }
+			position = { x = 28 y = 991 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
