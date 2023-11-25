@@ -1,0 +1,8 @@
+# Ignore the gfx folder
+gfx/
+
+# Ignore the descriptor.mod file
+descriptor.mod
+
+# Ignore the thumbnail.png file
+thumbnail.png
