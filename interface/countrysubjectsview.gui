@@ -516,7 +516,7 @@ guiTypes = {
 
 			instantTextBoxType = {
 				name = "colony_income_efficiency_value"
-				position = { x = 208 y = 439 }
+				position = { x = 208 y = 739 }
 				textureFile = ""
 				font = "vic_22"
 				borderSize = {x = 4 y = 4}

@@ -1085,7 +1085,7 @@ guiTypes = {
             }
             if_resolution = {
 				min_height = 1048
-				position = { x=416 y =830 }
+				position = { x=416 y =1010 }
 			}				
 			quadTextureSprite ="GFX_convert_consort_to_general"
 			clicksound = hire_general

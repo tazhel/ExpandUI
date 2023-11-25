@@ -589,7 +589,7 @@ guiTypes = {
 			}
 			if_resolution = {
 				min_height = 1080
-				position = {x = 50 y = 826 }
+				position = {x = 50 y = 1178 }
 			}
 			textureFile = ""
 			font = "vic_18"
@@ -614,7 +614,7 @@ guiTypes = {
 			}
 			if_resolution = {
 				min_height = 1080
-				position = {x = 23 y = 826 }
+				position = {x = 23 y = 1178 }
 			}
 			quadTextureSprite ="GFX_checkbox_gold_24"
 			tooltip = ""
@@ -972,7 +972,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "back_button"
-				position = { x=195 y =538}
+				position = { x=195 y =850}
 				quadTextureSprite ="button_type_1"
 				tooltip = ""
 				tooltipText =""

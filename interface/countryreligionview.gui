@@ -2170,7 +2170,7 @@ guiTypes = {
 			}
 			if_resolution = {
 				min_height = 1080
-				position = {x = 340 y = 859 }
+				position = {x = 340 y = 1217 }
 			}
 			alwaystransparent = yes
 		}			
@@ -2188,7 +2188,7 @@ guiTypes = {
 			}
 			if_resolution = {
 				min_height = 1080
-				position = {x = 170 y = 869 }
+				position = {x = 170 y = 1225 }
 			}
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
@@ -2212,7 +2212,7 @@ guiTypes = {
 			}
 			if_resolution = {
 				min_height = 1080
-				position = {x = 354 y = 862 }
+				position = {x = 354 y = 1221 }
 			}
 			size = { x= 240 y = 28 }
 			spacing = -10
@@ -2232,7 +2232,7 @@ guiTypes = {
 			}
 			if_resolution = {
 				min_height = 1080
-				position = {x = 318 y = 867 }
+				position = {x = 318 y = 1225 }
 			}
 			quadTextureSprite ="GFX_button_plus"
 		}

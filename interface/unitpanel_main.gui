@@ -725,7 +725,7 @@ guiTypes = {
 			name ="subunitlist"
 			position = { x = 50 y = 149 }
 			backGround=""
-			size = { x=295  y =300}
+			size = { x = 295 y = 800}
 			Orientation = "UPPER_LEFT"
 			horizontal = 0
 			spacing = 2
