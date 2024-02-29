@@ -64,7 +64,7 @@ guiTypes = {
 		{
 			name ="Opinion_icon"
 			spriteType = "GFX_diplodesire_icon"
-			position = { x= 13 y = 15 }
+			position = { x= 24 y = 58 }
 			Orientation = "UPPER_LEFT"
 			frame = 2
 			alwaystransparent = yes			
@@ -87,7 +87,7 @@ guiTypes = {
 		guiButtonType =
 		{
 			name ="ShieldButton"
-			position = { x= -22 y = 0 }
+			position = { x= 8 y = 0 }
 			quadTextureSprite = "GFX_shield_thin"
 			tooltip = ""
 			tooltipText =""
@@ -99,7 +99,7 @@ guiTypes = {
 		{
 			name ="no_peace"
 			spriteType = "GFX_no_peace"
-			position = { x= 1 y = 15 }
+			position = { x= 24 y = 68 }
 			Orientation = "UPPER_LEFT"
 			alwaystransparent = yes			
 		}
@@ -110,7 +110,7 @@ guiTypes = {
 	windowType = {
 		name = "peace_view"
 		backGround=""
-		position = { x=55 y=-1268 }		
+		position = { x=70 y=-1266 }		
 		size = { x=608 y=571 }
 		moveable = 0
 		dontRender = ""
@@ -137,19 +137,19 @@ guiTypes = {
 		
 		checkboxType = {
 			name = "demand_tab"
-			position = { x= 58 y = 86 }
+			position = { x= 123 y = 86 }
 			quadTextureSprite = "GFX_peaceview_tabs"
 		}		
 		
 		checkboxType = {
 			name = "offer_tab"
-			position = { x= 253 y = 86 }
+			position = { x= 318 y = 86 }
 			quadTextureSprite = "GFX_peaceview_tabs"
 		}
 
 		instantTextBoxType = {
 			name = "demand_tab_title"
-			position = { x = 87 y = 100}
+			position = { x = 152 y = 100}
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 4 y = 4}	
@@ -161,7 +161,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "offer_tab_title"
-			position = { x = 283 y = 100}
+			position = { x = 348 y = 100}
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 4 y = 4}	
@@ -175,13 +175,13 @@ guiTypes = {
 		{
 			name ="player_shield"
 			spriteType = "GFX_shield_thin"
-			position = { x= 20 y = 5 }
+			position = { x= 85 y = 5 }
 			Orientation = "UPPER_LEFT"
 		}
 		iconType = {
 			name ="player_shield_AL"
 			spriteType = "GFX_alliance_leader"
-			position = { x= 72 y = 66 }
+			position = { x= 137 y = 66 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -189,13 +189,13 @@ guiTypes = {
 		{
 			name ="opponent_shield"
 			spriteType = "GFX_shield_thin"
-			position = { x= 390 y = 5 }
+			position = { x= 455 y = 5 }
 			Orientation = "UPPER_LEFT"
 		}
 		iconType = {
 			name ="opponent_shield_AL"
 			spriteType = "GFX_alliance_leader"
-			position = { x= 442 y = 66 }
+			position = { x= 507 y = 66 }
 			Orientation = "UPPER_LEFT"
 		}		
 
@@ -215,9 +215,9 @@ guiTypes = {
 		listboxType = 
 		{
 			name ="affected_allies"
-			position = { x = -25 y = 100 }
+			position = { x = 10 y = 100 }
 			backGround=""
-			size = { x=50 y =1153}
+			size = { x=120 y =1153}
 			Orientation = "UPPER_LEFT"
 			spacing = 2
 			scrollbartype = "standardlistbox_slider"
@@ -228,9 +228,9 @@ guiTypes = {
 		listboxType = 
 		{
 			name ="affected_enemies"
-			position = { x = 500 y = 100}
+			position = { x = 575 y = 100}
 			backGround=""
-			size = { x=80 y =1153}
+			size = { x=120 y =1153}
 			Orientation = "UPPER_LEFT"
 			spacing = 2
 			scrollbartype = "standardlistbox_slider"
@@ -242,13 +242,13 @@ guiTypes = {
 		{
 			name ="peace_icon_cede_glow"
 			spriteType = "GFX_peace_button_glow"
-			position = { x= 50 y = 133 }
+			position = { x= 115 y = 133 }
 			Orientation = "UPPER_LEFT"
 		}		
 		
 		guiButtonType = {
 			name = "secede_provinces"
-			position = { x = 50 y = 133 }
+			position = { x = 115 y = 133 }
 			quadTextureSprite ="GFX_peace_tab_new"	
 			tooltip = ""
 			tooltipText =""
@@ -259,7 +259,7 @@ guiTypes = {
 		{
 			name ="peace_icon_cede"
 			spriteType = "GFX_cede_provinces_icon"
-			position = { x= 57 y = 141 }
+			position = { x= 122 y = 141 }
 			Orientation = "UPPER_LEFT"
 		}
 		
@@ -267,13 +267,13 @@ guiTypes = {
 		{
 			name ="peace_icon_revokecores_glow"
 			spriteType = "GFX_peace_button_glow"
-			position = { x= 109 y = 133 }
+			position = { x= 174 y = 133 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		guiButtonType = {
 			name = "give_up_cores"
-			position = { x = 109 y = 133 }
+			position = { x = 174 y = 133 }
 			quadTextureSprite ="GFX_peace_tab_new"	
 			tooltip = ""
 			tooltipText =""
@@ -284,7 +284,7 @@ guiTypes = {
 		{
 			name ="peace_icon_revokecores"
 			spriteType = "GFX_revoke_core_icon"
-			position = { x= 116 y = 141 }
+			position = { x= 181 y = 141 }
 			Orientation = "UPPER_LEFT"
 		}
 		
@@ -292,13 +292,13 @@ guiTypes = {
 		{
 			name ="peace_icon_returncores_glow"
 			spriteType = "GFX_peace_button_glow"
-			position = { x= 168 y = 133 }
+			position = { x= 233 y = 133 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		guiButtonType = {
 			name = "return_cores"
-			position = { x = 168 y = 133 }
+			position = { x = 233 y = 133 }
 			quadTextureSprite ="GFX_peace_tab_new"	
 			tooltip = ""
 			tooltipText =""
@@ -308,7 +308,7 @@ guiTypes = {
 		{
 			name ="peace_icon_returncores"
 			spriteType = "GFX_return_core_icon"
-			position = { x= 176 y = 141 }
+			position = { x= 241 y = 141 }
 			Orientation = "UPPER_LEFT"
 		}	
 		
@@ -316,13 +316,13 @@ guiTypes = {
 		{
 			name ="peace_icon_cancelvassal_glow"
 			spriteType = "GFX_peace_button_glow"
-			position = { x= 227 y = 133 }
+			position = { x= 292 y = 133 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		guiButtonType = {
 			name = "cancel_vassals"
-			position = { x = 227 y = 133 }
+			position = { x = 292 y = 133 }
 			quadTextureSprite ="GFX_peace_tab_new"	
 			tooltip = ""
 			tooltipText =""
@@ -332,7 +332,7 @@ guiTypes = {
 		{
 			name ="peace_icon_cancelvassal"
 			spriteType = "GFX_cancel_vassals_icon"
-			position = { x= 234 y = 141 }
+			position = { x= 299 y = 141 }
 			Orientation = "UPPER_LEFT"
 		}
 		
@@ -340,13 +340,13 @@ guiTypes = {
 		{
 			name ="peace_icon_releasenation_glow"
 			spriteType = "GFX_peace_button_glow"
-			position = { x= 286 y = 133 }
+			position = { x= 351 y = 133 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		guiButtonType = {
 			name = "release_nations"
-			position = { x = 286 y = 133	 }
+			position = { x = 351 y = 133	 }
 			quadTextureSprite ="GFX_peace_tab_new"	
 			tooltip = ""
 			tooltipText =""
@@ -356,7 +356,7 @@ guiTypes = {
 		{
 			name ="peace_icon_releasenation"
 			spriteType = "GFX_release_nation_icon"
-			position = { x= 294 y = 141 }
+			position = { x= 359 y = 141 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -364,13 +364,13 @@ guiTypes = {
 		{
 			name ="peace_icon_annultreaty_glow"
 			spriteType = "GFX_peace_button_glow"
-			position = { x= 345 y = 133 }
+			position = { x= 410 y = 133 }
 			Orientation = "UPPER_LEFT"
 		}		
 		
 		guiButtonType = {
 			name = "annul_treaties"
-			position = { x = 345 y = 133	 }
+			position = { x = 410 y = 133	 }
 			quadTextureSprite ="GFX_peace_tab_new"	
 			tooltip = ""
 			tooltipText =""
@@ -381,7 +381,7 @@ guiTypes = {
 		{
 			name ="peace_icon_annultreaty"
 			spriteType = "GFX_annul_treaties_icon"
-			position = { x= 352 y = 141 }
+			position = { x= 417 y = 141 }
 			Orientation = "UPPER_LEFT"
 		}		
 
@@ -389,13 +389,13 @@ guiTypes = {
 		{
 			name ="peace_icon_treaties_glow"
 			spriteType = "GFX_peace_button_glow"
-			position = { x= 404 y = 133 }
+			position = { x= 469 y = 133 }
 			Orientation = "UPPER_LEFT"
 		}			
 		
 		guiButtonType = {
 			name = "treaties"
-			position = { x = 404 y = 133	 }
+			position = { x = 469 y = 133	 }
 			quadTextureSprite ="GFX_peace_tab_new"	
 			tooltip = ""
 			tooltipText =""
@@ -406,13 +406,13 @@ guiTypes = {
 		{
 			name ="peace_icon_treaties"
 			spriteType = "GFX_treaties_icon"
-			position = { x= 411 y = 141 }
+			position = { x= 476 y = 141 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		guiButtonType = {
 			name = "cancel"
-			position = { x = 472 y = 4 }
+			position = { x = 537 y = 4 }
 			spriteType ="GFX_closebutton2"	
 			shortcut = "ESCAPE"
 			clicksound = close_window
@@ -420,7 +420,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "reset_button"
-			position = { x = 30 y = 1225 }
+			position = { x = 105 y = 1225 }
 			quadTextureSprite ="button_type_1"	
 			tooltip = ""
 			tooltipText =""
@@ -431,7 +431,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "suggest_peace_button"
-			position = { x = 180 y = 1225 }
+			position = { x = 255 y = 1225 }
 			quadTextureSprite ="button_type_1"	
 			tooltip = ""
 			tooltipText =""
@@ -442,7 +442,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "surrender_button"
-			position = { x = 180 y = 1225 }
+			position = { x = 255 y = 1225 }
 			quadTextureSprite ="button_type_1"	
 			tooltip = ""
 			tooltipText =""
@@ -453,7 +453,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "send"
-			position = { x = 330 y = 1225 }
+			position = { x = 405 y = 1225 }
 			quadTextureSprite ="button_type_1"	
 			tooltip = ""
 			tooltipText =""
@@ -464,7 +464,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "summary"
-			position = { x = 220 y = 350 }
+			position = { x = 295 y = 874 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
@@ -478,12 +478,12 @@ guiTypes = {
 		{
 			name ="prestige_icon"
 			spriteType = "GFX_icon_prestige"
-			position = { x= 32 y = 897 }
+			position = { x= 97 y = 897 }
 			Orientation = "UPPER_LEFT"
 		}
 		instantTextBoxType = {
 			name = "prestige_value"
-			position = { x = 40 y = 900 }
+			position = { x = 105 y = 900 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -497,12 +497,12 @@ guiTypes = {
 		{
 			name ="dip_icon"
 			spriteType = "GFX_icon_powers_diplomatic"
-			position = { x= 32 y = 924 }
+			position = { x= 97 y = 924 }
 			Orientation = "UPPER_LEFT"
 		}
 		instantTextBoxType = {
 			name = "dip_value"
-			position = { x = 40 y = 928 }
+			position = { x = 105 y = 928 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -516,12 +516,12 @@ guiTypes = {
 		{
 			name ="aggressiveexp_icon"
 			spriteType = "GFX_aggresive_exp_icon"
-			position = { x= 29 y = 953 }
+			position = { x= 94 y = 952 }
 			Orientation = "UPPER_LEFT"
 		}
 		instantTextBoxType = {
 			name = "aggressiveexp_value"
-			position = { x = 40 y = 957 }
+			position = { x = 105 y = 956 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -534,7 +534,7 @@ guiTypes = {
 		{
 			name ="coalition_icon"
 			spriteType = "GFX_diplomacy_coalitions_against"
-			position = { x= 500 y = 1015 }
+			position = { x= 565 y = 1015 }
 			Orientation = "UPPER_LEFT"
 		}
 		
@@ -542,12 +542,12 @@ guiTypes = {
 		{
 			name ="overex_icon"
 			spriteType = "GFX_icon_overextension"
-			position = { x= 32 y = 985 }
+			position = { x= 97 y = 984 }
 			Orientation = "UPPER_LEFT"
 		}
 		instantTextBoxType = {
 			name = "overex_value"
-			position = { x = 40 y = 987 }
+			position = { x = 105 y = 986 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -559,7 +559,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name = "desc"
-			position = { x = 135 y = 906 }
+			position = { x = 200 y = 906 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -574,13 +574,13 @@ guiTypes = {
 		{
 			name ="adm_icon"
 			spriteType = "GFX_icon_powers_administrative"
-			position = { x= 32 y = 1012 }
+			position = { x= 97 y = 1011 }
 			Orientation = "UPPER_LEFT"
 		}
 		
 		instantTextBoxType = {
 			name = "adm_value"
-			position = { x = 40 y = 1017 }
+			position = { x = 105 y = 1016 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 4 y = 4}
@@ -593,7 +593,7 @@ guiTypes = {
 ##############################################
 		instantTextBoxType = {
 			name = "offer_score_label"
-			position = { x = 265 y = 1198 }
+			position = { x = 330 y = 1196 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
@@ -605,7 +605,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "offer_score"
-			position = { x = 317 y = 1198 }
+			position = { x = 382 y = 1196 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
@@ -619,7 +619,7 @@ guiTypes = {
 		{
 			name ="terms_declined"
 			spriteType = "GFX_terms_declined_icon"
-			position = { x= 439 y = 1190 }
+			position = { x= 504 y = 1188 }
 			Orientation = "UPPER_LEFT"
 		}			
 		
@@ -627,13 +627,13 @@ guiTypes = {
 		{
 			name ="terms_accepted"
 			spriteType = "GFX_terms_accepted_icon"
-			position = { x= 439 y = 1190 }
+			position = { x= 504 y = 1188 }
 			Orientation = "UPPER_LEFT"
 		}	
 
 		instantTextBoxType = {
 			name = "war_name"
-			position = { x = 100 y = 15 }
+			position = { x = 165 y = 15 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
@@ -646,13 +646,13 @@ guiTypes = {
 		iconType = {
 			name = "war_cb_icon"
 			spriteType = "GFX_cb_core"
-			position = { x = 144 y = 62 }
+			position = { x = 207 y = 59 }
 			orientation = "UPPER_LEFT"
 		}		
 		
 		instantTextBoxType = {
 			name = "warscore"
-			position = { x = 262 y = 60 }
+			position = { x = 325 y = 57 }
 			textureFile = ""
 			font = "vic_22"
 			borderSize = {x = 0 y = 0}
@@ -664,7 +664,7 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "warscore_label"
-			position = { x = 178 y = 57 }
+			position = { x = 245 y = 54 }
 			textureFile = ""
 			font = "vic_29"
 			borderSize = {x = 0 y = 0}
@@ -678,7 +678,7 @@ guiTypes = {
 		iconType = {
 			name = "war_wargoal_icon"
 			spriteType = "GFX_cb_core"
-			position = { x = 345 y = 62 }
+			position = { x = 409 y = 59 }
 			orientation = "UPPER_LEFT"
 		}			
 		
@@ -686,13 +686,13 @@ guiTypes = {
 		{
 			name ="icon_gold"
 			spriteType = "GFX_icon_gold"
-			position = { x= 129 y = 1194 }
+			position = { x= 193 y = 1192 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		instantTextBoxType = {
 			name = "cash"
-			position = { x = 130 y = 1200 }
+			position = { x = 194 y = 1198 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -704,7 +704,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "inccash"
-			position = { x = 228 y = 1198 }
+			position = { x = 292 y = 1196 }
 			quadTextureSprite ="GFX_increase_button"	
 			tooltip = ""
 			tooltipText =""
@@ -714,7 +714,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "deccash"
-			position = { x = 205 y = 1198 }
+			position = { x = 269 y = 1196 }
 			quadTextureSprite ="GFX_decrease_button_left"	
 			tooltip = ""
 			tooltipText =""
@@ -724,13 +724,13 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "sort_receiver"
-			position = { x = 57 y = 182 }
+			position = { x = 122 y = 182 }
 			quadTextureSprite = "GFX_sort_shield"
 		}
 
 		guiButtonType = {
 			name = "sort_text"
-			position = { x = 83 y = 184 }
+			position = { x = 148 y = 184 }
 			quadTextureSprite ="GFX_sort_160_peace"
 			buttonText = "PEACE_NAME"
 			buttonFont = "vic_18"
@@ -738,13 +738,13 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "sort_giver"
-			position = { x = 241 y = 182 }
+			position = { x = 306 y = 182 }
 			quadTextureSprite = "GFX_sort_shield"
 		}
 					
 		guiButtonType = {
 			name = "sort_overex"
-			position = { x = 267 y = 184 }
+			position = { x = 332 y = 184 }
 			quadTextureSprite ="GFX_sort_64"	
 			buttonText = "OVEREX"
 			buttonFont = "vic_18"
@@ -752,7 +752,7 @@ guiTypes = {
 	
 		guiButtonType = {
 			name = "sort_cost"
-			position = { x = 329 y = 184 }
+			position = { x = 394 y = 184 }
 			quadTextureSprite ="GFX_sort_64"	
 			buttonText = "PEACE_WARSCORE"
 			buttonFont = "vic_18"
@@ -760,20 +760,20 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "sort_dip_cost"
-			position = { x = 391  y = 184 }
+			position = { x = 456  y = 184 }
 			quadTextureSprite ="GFX_sort_diplomatic_cost"	
 		}			
 		
 		guiButtonType = {
 			name = "sort_prestige"
-			position = { x = 420 y = 184 }
+			position = { x = 485 y = 184 }
 			quadTextureSprite ="GFX_sort_prestige_cost"
 		}
 			
 		listboxType = 
 		{
 			name ="peace_list"
-			position = { x = 55 y = 207 }
+			position = { x = 116 y = 207 }
 			backGround=""
 			size = { x= 407 y = 660}
 			Orientation = "UPPER_LEFT"
@@ -786,7 +786,7 @@ guiTypes = {
 		iconType = {
 			name = "better_offer_icon"
 			spriteType = "GFX_better_offer"
-			position = { x = 439 y = 1190 }
+			position = { x = 439 y = 490 }
 			orientation = "UPPER_LEFT"
 		}
 	}
@@ -819,7 +819,7 @@ guiTypes = {
 		{
 			name ="wargoal_icon"
 			spriteType = "GFX_diplomacy_action_covert"
-			position = { x= 187 y = 2 }
+			position = { x= 163 y = 2 }
 			Orientation = "UPPER_LEFT"
 		}		
 
@@ -847,7 +847,7 @@ guiTypes = {
 		guiButtonType =
 		{
 			name ="claim_button"
-			position = { x= 182 y = -1 }
+			position = { x= 158 y = -1 }
 			quadTextureSprite = "GFX_shield_small_claim"
 			tooltip = ""
 			tooltipText =""
@@ -886,7 +886,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "country_flag_2"
-			position = { x= 156 y = 4 }
+			position = { x= 187 y = 4 }
 			quadTextureSprite ="GFX_flag_small"	
 		}			
 
@@ -894,7 +894,7 @@ guiTypes = {
 		{
 			name ="unlawful_territory"
 			spriteType = "GFX_unlawful_territory"
-			position = { x= 153 y = -2 }
+			position = { x= 133 y = -2 }
 			Orientation = "UPPER_LEFT"
 		}			
 

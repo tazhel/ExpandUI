@@ -766,7 +766,7 @@ guiTypes = {
 				name ="list"
 				position = { x = 6 y = 74 }
 				backGround=""
-				size = { x=480 y = 530}
+				size = { x=480 y = 510}
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
 				spacing = 0
@@ -776,7 +776,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "back"
-				position = { x= 4 y = 600 }
+				position = { x= 4 y = 572 }
 				quadTextureSprite ="GFX_button_straight_87_32"
 				buttonText = "BACK"
 				buttonFont = "vic_18"
@@ -787,7 +787,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "core_all"
-				position = { x= 400 y = 600 }
+				position = { x= 400 y = 572 }
 				quadTextureSprite ="GFX_button_straight_87_32"
 				buttonText = "CORE_ALL"
 				buttonFont = "vic_18"
