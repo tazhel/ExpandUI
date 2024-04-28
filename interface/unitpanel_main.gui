@@ -859,13 +859,13 @@ guiTypes = {
 		iconType = {
 			name ="mission_icon"
 			spriteType = "GFX_outliner_action"
-			position = { x= 34 y = 360 }
+			position = { x= 34 y = 860 }
 			Orientation = "LOWER_LEFT"
 			frame = 1
 		}
 		instantTextBoxType = {
 			name = "mission_desc"
-			position = { x = 46 y = 455 }
+			position = { x = 46 y = 955 }
 			textureFile = ""
 			font = "vic_18"
 			borderSize = {x = 0 y = 0}
@@ -956,7 +956,7 @@ guiTypes = {
 			name ="unitlist"
 			position = { x= -80 y = 42 }
 			backGround=""
-			size = { x= 500  y = 500 }
+			size = { x= 500  y = 1000 }
 			horizontal = 0
 			spacing = 0
 			scrollbartype = "standardlistbox_slider"
