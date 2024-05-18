@@ -571,7 +571,7 @@ guiTypes = {
 			listboxType =
 			{
 				name ="assimilated_cultures_listbox"
-				position = { x = 25 y = 397}
+				position = { x = 25 y = 551}
 				backGround=""
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
@@ -590,13 +590,13 @@ guiTypes = {
 				}
 				if_resolution = {
 					min_height = 1052
-					size = { x = 226 y = 432 }
+					size = { x = 226 y = 624 }
 				}
 			}
 
 			instantTextBoxType = {
 				name = "assimilated_culture_groups_label"
-				position = { x = 317 y = 352 }
+				position = { x = 317 y = 506 }
 				format = centre
 				font = "vic_18"
 				maxWidth = 180
@@ -606,7 +606,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "non_accepted_sort_name_btn"
-				position = { x=288 y =377}
+				position = { x=288 y =531}
 				quadTextureSprite ="GFX_culture_name_sort"
 				tooltip = ""
 				tooltipText =""
@@ -619,7 +619,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "non_accepted_sort_bonus_btn"
-				position = { x=432 y =377}
+				position = { x=432 y =531}
 				quadTextureSprite ="GFX_culture_bonus_sort"
 				tooltip = ""
 				tooltipText =""
@@ -632,7 +632,7 @@ guiTypes = {
 
 			guiButtonType = {
 				name = "non_accepted_sort_dev_btn"
-				position = { x = 397 y = 377}
+				position = { x = 397 y = 531}
 				quadTextureSprite ="GFX_culture_dev_sort"
 				tooltip = ""
 				tooltipText =""
@@ -645,7 +645,7 @@ guiTypes = {
 			listboxType =
 			{
 				name ="assimilated_culture_groups_listbox"
-				position = { x = 286 y = 397}
+				position = { x = 286 y = 551}
 				backGround=""
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
@@ -664,7 +664,7 @@ guiTypes = {
 				}
 				if_resolution = {
 					min_height = 1052
-					size = { x = 226 y = 432 }
+					size = { x = 226 y = 624 }
 				}
 			}
 		}
