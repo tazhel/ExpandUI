@@ -6267,7 +6267,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "AgreeButton"
-			position = { x=280 y =525}
+			position = { x=280 y =825}
 			quadTextureSprite ="button_type_4"
 			tooltip = ""
 			tooltipText =""
@@ -6282,7 +6282,7 @@ guiTypes = {
 
 		guiButtonType = {
 			name = "DeclineButton"
-			position = { x=50 y =525}
+			position = { x=50 y =825}
 			quadTextureSprite ="button_type_4"
 			tooltip = ""
 			tooltipText =""

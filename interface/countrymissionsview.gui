@@ -415,8 +415,9 @@ guiTypes = {
 		
 		iconType = {
 			name = "mission_entry_rewards_glow"
-			position = { x=58 y=-4 }
-			quadTextureSprite = "GFX_mission_effect_glow"
+			quadTextureSprite = "GFX_mission_icons_frame_ready"
+			position = { x= -9 y = 0 }
+			alwaystransparent = yes
 		}
 		
 		iconType = {
