@@ -121,7 +121,7 @@ guiTypes = {
 			font = "vic_18"
 			text = ""
 			maxWidth = 480
-			maxHeight = 180
+			maxHeight = 160
 			scrollbartype = "standardlistbox_slider"
 		}
 

@@ -1195,7 +1195,7 @@ guiTypes = {
 				}
 				if_resolution = {
 					min_height = 1048
-					size = { x=333 y =468}
+					size = { x=333 y =668}
 				}					
 				Orientation = "UPPER_LEFT"
 				horizontal = 0
@@ -1751,13 +1751,13 @@ guiTypes = {
 			#	position = { x=105 y =531 }
 			#}
 			
-			position = { x=55 y =534 }
+			position = { x=105 y =534 }
 			textureFile = ""
 			font = "vic_18"
 			text = "99/99 Forts Active"	
-			maxWidth = 80
+			maxWidth = 45
 			maxHeight = 20
-			format = right
+			format = centre
 			fixedsize = yes
 		}
 		
@@ -1774,7 +1774,7 @@ guiTypes = {
 			name ="automatic_full_maintenance_checkbox"
 			if_resolution = {
             max_height = 867
-			position = { x=208 y =514 }
+			position = { x=248 y =514 }
             }
             if_resolution = {
 			min_height = 868
@@ -1797,7 +1797,7 @@ guiTypes = {
 			name = "automatic_full_maintenance_label"
 			if_resolution = {
             max_height = 867
-			position = { x=228 y =513 }
+			position = { x=268 y =513 }
 			maxWidth = 300
 			maxHeight = 40
             }
